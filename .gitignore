@@ -1,6 +1,7 @@
 # customer #
 ###########
 node_modules
+package-lock.json
 
 # Compiled source #
 ###################
