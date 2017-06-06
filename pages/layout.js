@@ -1,3 +1,4 @@
+require('../css/index.css');
 const footer = require('./footer.ejs');
 const header = require('./header.ejs');
 const layout = require('./layout.ejs');

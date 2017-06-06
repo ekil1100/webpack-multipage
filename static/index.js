@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -74,7 +74,7 @@ module.exports = function (obj) {
 obj || (obj = {});
 var __t, __p = '';
 with (obj) {
-__p += '<div>\n    <h1>hello world</h1>\n</div>\n';
+__p += '    <div>\n        <h1>hello world</h1>\n    </div>\n';
 
 }
 return __p
@@ -84,6 +84,7 @@ return __p
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(5);
 const footer = __webpack_require__(2);
 const header = __webpack_require__(3);
 const layout = __webpack_require__(4);
@@ -170,10 +171,17 @@ return __p
 
 /***/ }),
 /* 5 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 const content = __webpack_require__(0);
 const layout = __webpack_require__(1);
+
 var pageTitle = '橙瓜-首页';
 
 
