@@ -1,3 +1,4 @@
+
 const content = require('./content.ejs');
 const layout = require('./layout.js');
 
